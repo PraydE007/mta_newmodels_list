@@ -1,0 +1,12 @@
+<meta>
+    <info author="PraydE" name="newmodels_list" version="1.0.1" type="script"/>
+
+    <script src="server.lua" type="server"/>
+    <script src="client.lua" type="client"/>
+
+    <export function="addModel" type="server"/>
+    <export function="getModels" type="server"/>
+    <export function="getModelsClient" type="client"/>
+
+    <oop>true</oop>
+</meta>
